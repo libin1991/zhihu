@@ -1,0 +1,17 @@
+<view class="container-item" bind:tap="clickItems">
+    <view class="item-title">
+        <text>{{items.title}}</text>
+        <image src="./images/more.png" catch:tap="clickMore"></image>
+    </view>
+    <view class="item-author">
+        <image src="{{items.imgUrl}}"></image>
+        <text>{{items.author}}</text>
+    </view>
+    <text class="text-body">{{items.content}}</text>
+    <view class="item-action">
+        <text>{{items.starNum}}</text>
+        <text>赞同</text>
+        <text>{{items.reviewNum}}</text>
+        <text>评论</text>
+    </view>
+</view>

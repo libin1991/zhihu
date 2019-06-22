@@ -1,0 +1,123 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+}
+
+.header > h1 {
+  padding: 20rpx 20rpx 10rpx 20rpx;
+}
+
+.header > .look {
+  color: #aaa;
+  padding: 10rpx 20rpx 20rpx 20rpx;
+}
+
+.header > .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: blue;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.header > .btn-group > view {
+  width: 50%;
+  padding: 10rpx;
+}
+
+.header > .btn-group > view:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.section {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+}
+
+.section .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100rpx;
+  padding: 20rpx;
+}
+
+.section .author > view:first-child {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .author > view:first-child > image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.section .author > view:first-child > text {
+  line-height: 28rpx;
+  margin-left: 10rpx;
+}
+
+.section .author > view:last-child {
+  color: blue;
+}
+
+.section .content {
+  padding: 0 20rpx 0 20rpx;
+}
+
+.section .updata-time {
+  color: #aaa;
+  padding: 20rpx;
+}
+
+.footer {
+  background-color: #fff;
+  padding-bottom: 30rpx;
+}
+
+.footer > h3 {
+  padding: 20rpx;
+}
+
+.footer > .getAllReview {
+  color: #aaa;
+  margin-left: 60rpx;
+}
+/*# sourceMappingURL=detail.wxss.map */

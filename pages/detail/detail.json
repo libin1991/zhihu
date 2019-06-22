@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "review":"/components/review/review"
+  }
+}

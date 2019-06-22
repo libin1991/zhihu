@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/message/message",
+    "pages/detail/detail",
+    "pages/problem/problem"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0068C4",
+    "navigationBarTitleText": "知乎——微信小程序",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#f0f0f0",
+    "backgroundColorTop": "#f0f0f0",
+    "backgroundColorBottom": "#f0f0f0"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#0068C4",
+    "backgroundColor": "blue",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/index_focus.png"
+      },
+      {
+        "text": "通知",
+        "pagePath": "pages/message/message",
+        "iconPath": "images/tabBar/message.png",
+        "selectedIconPath": "images/tabBar/message_focus.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabBar/my.png",
+        "selectedIconPath": "images/tabBar/my_focus.png"
+      }
+    ]
+  },
+  "debug": true,
+  "networkTimeout": {
+    "request": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

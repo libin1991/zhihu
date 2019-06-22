@@ -1,0 +1,73 @@
+<view class="container">
+    <view class="my">
+        <view class="portrait">
+            <image src="{{my.img}}"></image>
+        </view>
+        <view class="nameAndAction">
+            <view class="name">
+                <text>{{my.name}}</text>
+            </view>
+            <view class="action">
+                <text>查看或编辑个人主页</text>
+            </view>
+        </view>
+    </view>
+    <view class="function">
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/eye.png"></image>
+            </view>
+            <view class="title">
+                <text>我的关注</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/star.png"></image>
+            </view>
+            <view class="title">
+                <text>我的收藏</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/draft.png"></image>
+            </view>
+            <view class="title">
+                <text>我的草稿</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/recent.png"></image>
+            </view>
+            <view class="title">
+                <text>最近浏览</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/book.png"></image>
+            </view>
+            <view class="title">
+                <text>我的书架</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/live.png"></image>
+            </view>
+            <view class="title">
+                <text>我的live</text>
+            </view>
+        </view>
+        <view class="function-item">
+            <view class="icon">
+                <image src="/images/my/zhi.png"></image>
+            </view>
+            <view class="title">
+                <text>我的值乎</text>
+            </view>
+        </view>
+    </view>
+</view>

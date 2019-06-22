@@ -1,0 +1,5 @@
+<view class="container">
+    <block wx:for="{{items}}" wx:for-item="v" wx:for-index="i">
+        <index-items items="{{v}}" index="{{i}}" bind:clickItems="clickItems" bind:clickMore="clickMore"></index-items>
+    </block>
+</view>

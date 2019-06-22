@@ -1,0 +1,53 @@
+page {
+  width: 100%;
+  font-size: 14px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+page, p, h1, h2, h3, h4, h5, ul, ol, li, dl, dd, dt {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, ul, ol, li, dl, dd, dt, view, text, image {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  display: block;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 16.8px;
+}
+
+h3 {
+  font-size: 16.1px;
+}
+
+h4 {
+  font-size: 15.4px;
+}
+
+h5 {
+  font-size: 14.7px;
+}
+/*# sourceMappingURL=app.wxss.map */

@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="header">
+        <h1>{{detail.title}}</h1>
+        <view class="look" bind:tap="clickTitle">
+            <text decode="{{true}}">查看全部{{detail.answer_num}}个回答&nbsp;&gt;</text>
+        </view>
+        <view class="btn-group">
+            <view>邀请回答</view>
+            <view>写回答</view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="author">
+            <view>
+                <image src="{{detail.answer_img}}"></image>
+                <text>{{detail.answer_name}}</text>
+            </view>
+            <view>
+                <button size="mini" type="{{follow?'primary':'default'}}" bind:tap="clickFollow">{{follow?'取消关注':'关注'}}</button>
+            </view>
+        </view>
+        <view class="content">{{detail.answer_content}}</view>
+        <view class="updata-time">
+            <text decode="{{true}}">发布于{{detail.updata_time}}&nbsp;&nbsp;著作权归作者所有</text>
+        </view>
+    </view>
+    <view class="footer">
+        <h3>评论</h3>
+        <block wx:for="{{detail.review}}" wx:for-item="v" wx:for-index="i">
+            <review detail="{{v}}" bind:clickStar="clickStar" index="{{i}}"></review>
+        </block>
+        <view class="getAllReview">
+            <text>查看全部{{detail.review_num}}条评论</text>
+        </view>
+    </view>
+</view>

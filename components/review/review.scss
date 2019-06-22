@@ -1,0 +1,43 @@
+$content-color: #aaa;
+
+.review {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20rpx 20rpx 20rpx;
+
+  > image {
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 50%;
+  }
+
+  > .review-message {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10rpx;
+    width: 100%;
+
+    > .review-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      > text {
+        color: $content-color;
+      }
+
+      > view {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+
+        > image {
+          width: 40rpx;
+          height: 40rpx;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<view class="container">
+    <block wx:for="{{message}}" wx:for-item="v" wx:for-index="i">
+        <view class="item">
+            <view class="portrait">
+                <image src="{{v.portrait}}"></image>
+            </view>
+            <view class="item-content">
+                <view class="title">
+                    <text>{{v.name}}</text>
+                    <text>{{v.time}}</text>
+                </view>
+                <view class="content">{{v.content}}</view>
+            </view>
+        </view>
+    </block>
+</view>

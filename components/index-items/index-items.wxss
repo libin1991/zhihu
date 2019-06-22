@@ -1,0 +1,102 @@
+.container-item {
+  padding: 10rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10rpx;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.item-title {
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-title text {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.item-title image {
+  width: 40rpx;
+  height: 40rpx;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.item-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40rpx;
+  margin-bottom: 10rpx;
+}
+
+.item-author > image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.item-author > text {
+  line-height: 28rpx;
+  margin-left: 10rpx;
+}
+
+.text-body {
+  margin-bottom: 10rpx;
+}
+
+.item-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #bbb;
+}
+
+.item-action :nth-child(2) {
+  margin-left: 4rpx;
+}
+
+.item-action :nth-child(3) {
+  margin-left: 6rpx;
+}
+
+.item-action :nth-child(4) {
+  margin-left: 4rpx;
+}
+/*# sourceMappingURL=index-items.wxss.map */

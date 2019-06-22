@@ -1,0 +1,97 @@
+.header {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header > .title,
+.header > .content,
+.header > .follow {
+  padding: 0 20rpx;
+}
+
+.header > .content,
+.header > .follow {
+  margin-top: 20rpx;
+}
+
+.header > .follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header > .follow view:first-child {
+  color: #aaa;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.review-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.review-item .review-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40rpx;
+  margin-bottom: 10rpx;
+}
+
+.review-item .review-header > image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.review-item .review-header > text {
+  line-height: 28rpx;
+  margin-left: 10rpx;
+  color: #aaa;
+}
+
+.review-item .review-footer {
+  color: #aaa;
+  margin-top: 10rpx;
+}
+/*# sourceMappingURL=problem.wxss.map */

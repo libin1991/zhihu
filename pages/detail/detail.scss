@@ -1,0 +1,94 @@
+$bg-color: #fff;
+$border-color: #ddd;
+$content-color: #aaa;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background: $bg-color;
+
+  > h1 {
+    padding: 20rpx 20rpx 10rpx 20rpx;
+  }
+
+  > .look {
+    color: $content-color;
+    padding: 10rpx 20rpx 20rpx 20rpx;
+  }
+
+  > .btn-group {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    border-top: 1px solid $border-color;
+    text-align: center;
+
+    > view {
+      width: 50%;
+      padding: 10rpx;
+    }
+
+    > view:first-child {
+      border-right: 1px solid $border-color;
+    }
+  }
+}
+
+.section {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  background: $bg-color;
+
+  .author {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 100rpx;
+    padding: 20rpx;
+
+    >view:first-child {
+        display:inline-flex;
+        flex-direction:row;
+        align-items:center;
+
+        > image {
+            width: 40rpx;
+            height: 40rpx;
+            border-radius: 50%;
+          }
+      
+          > text {
+            line-height: 28rpx;
+            margin-left: 10rpx;
+          }
+    }
+    > view:last-child {
+        color:blue;
+    }
+  }
+
+  .content {
+      padding:0 20rpx 0 20rpx;
+  }
+
+  .updata-time {
+      color:$content-color;
+      padding:20rpx;
+  }
+}
+
+.footer {
+    background-color:$bg-color;
+    padding-bottom:30rpx;
+
+    > h3 {
+        padding:20rpx;
+    }
+
+    > .getAllReview {
+        color:$content-color;
+        margin-left:60rpx;
+    }
+}

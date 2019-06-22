@@ -1,0 +1,13 @@
+<view class="review">
+    <image src="{{detail.review_img}}"></image>
+    <view class="review-message">
+        <view class="review-name">
+            <text>{{detail.review_name}}</text>
+            <view bind:tap="clickStar">
+                <image src="{{star?STARFOCUS:STAR}}"></image>
+                <text style="{{star?'color:blue':'color:#aaa'}}">{{detail.review_star}}</text>
+            </view>
+        </view>
+        <view class="review-container">{{detail.review_content}}</view>
+    </view>
+</view>

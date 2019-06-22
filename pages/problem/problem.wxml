@@ -1,0 +1,34 @@
+<view class="container">
+    <view class="header">
+        <view class="title">
+            <h1>{{problem.title}}</h1>
+        </view>
+        <view class="content">
+            <text>{{problem.content}}</text>
+        </view>
+        <view class="follow">
+            <view>
+                <text decode="{{true}}">
+                    {{problem.follow_num}}人关注&nbsp;&nbsp;{{problem.review_num}}条评论
+                </text>
+            </view>
+            <view>
+                <button size="mini" type="{{follow?'default':'primary'}}" bind:tap="clickFollow">{{follow?'已关注':'关注问题'}}</button>
+            </view>
+        </view>
+    </view>
+    <view class="section">
+        <block wx:for="{{problemReview}}" wx:for-item="v" wx:for-index="i">
+            <view class="review-item" bind:tap="clickItems">
+                <view class="review-header">
+                    <image src="{{v.img}}"></image>
+                    <text>{{v.author}}</text>
+                </view>
+                <view class="review-content">{{v.content}}</view>
+                <view class="review-footer">
+                    <text>{{v.star_num}}赞同{{v.review_num}}评论</text>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

@@ -1,0 +1,48 @@
+$bg-color: #f0f0f0;
+$font-size:14px;
+page {
+  width: 100%;
+  font-size: $font-size;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: $bg-color;
+}
+
+page,p,h1,h2,h3,h4,h5,ul,ol,li,dl,dd,dt {
+  margin:0;
+  padding:0;
+}
+
+p,h1,h2,h3,h4,h5,ul,ol,li,dl,dd,dt,view,text,image {
+  box-sizing:border-box;
+}
+
+h1,h2,h3,h4,h5 {
+  display: block;
+  font-weight:600;
+}
+
+h1 {
+  font-size:1.5*$font-size;
+}
+
+h2 {
+  font-size:1.2*$font-size;
+}
+
+h3 {
+  font-size:1.15*$font-size;
+}
+
+h4 {
+  font-size:1.1*$font-size;
+}
+
+h5 {
+  font-size:1.05*$font-size;
+}

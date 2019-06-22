@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "index-items":"/components/index-items/index-items"
+  },
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 5
+}
