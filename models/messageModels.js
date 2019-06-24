@@ -20,8 +20,8 @@ class MessageModels extends HTTP {
             this.request(params);
         }
         else {
-            let data=messageMock.getMessage();
-            success && success(data);
+            let list=messageMock.getMessage();
+            success && success(list);
         }
     }
 }

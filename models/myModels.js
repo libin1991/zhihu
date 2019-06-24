@@ -21,8 +21,8 @@ class MyModels extends HTTP {
             this.request(params);
         }
         else {
-            let data=myMock.getMy();
-            success && success(data);
+            let list=myMock.getMy();
+            success && success(list);
         }
     }
 }

@@ -59,15 +59,17 @@ $border-color:#dfdfdf;
   flex-direction: row;
   color:#bbb;
   
-  :nth-child(2) {
-    margin-left:4rpx;
-  }
+  text {
+    &:nth-child(2) {
+      margin-left:4rpx;
+    }
 
-  :nth-child(3) {
-    margin-left:6rpx;
-  }
-  
-  :nth-child(4) {
-    margin-left:4rpx;
+    &:nth-child(3) {
+      margin-left:6rpx;
+    }
+
+    &:nth-child(4) {
+      margin-left:4rpx;
+    }
   }
 }

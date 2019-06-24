@@ -88,15 +88,15 @@
   color: #bbb;
 }
 
-.item-action :nth-child(2) {
+.item-action text:nth-child(2) {
   margin-left: 4rpx;
 }
 
-.item-action :nth-child(3) {
+.item-action text:nth-child(3) {
   margin-left: 6rpx;
 }
 
-.item-action :nth-child(4) {
+.item-action text:nth-child(4) {
   margin-left: 4rpx;
 }
 /*# sourceMappingURL=index-items.wxss.map */

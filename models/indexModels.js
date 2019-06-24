@@ -19,8 +19,8 @@ class IndexModels extends HTTP{
             this.request(params);
         }
         else {
-            let data=indexMock.getIndexList();
-            success && success(data);
+            let list=indexMock.getIndexList();
+            success && success(list);
         }
     }
 }

@@ -18,8 +18,8 @@ class DetailModels extends HTTP {
             this.request(params);
         }
         else {
-            let data=detailMock.getDetail();
-            success && success(data);
+            let list=detailMock.getDetail();
+            success && success(list);
         }
     }
 }

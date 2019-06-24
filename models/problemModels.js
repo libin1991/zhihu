@@ -21,8 +21,8 @@ class ProblemModels extends HTTP {
             this.request(params);
         }
         else {
-            let data=problemMock.getProblem();
-            success && success(data);
+            let list=problemMock.getProblem();
+            success && success(list);
         }
     }
     //获得问题的回答
@@ -38,8 +38,8 @@ class ProblemModels extends HTTP {
             this.request(params);
         }
         else {
-            let data=problemMock.getProblemReview();
-            success && success(data);
+            let list=problemMock.getProblemReview();
+            success && success(list);
         }
     }
 }
